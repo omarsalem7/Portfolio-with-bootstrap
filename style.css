@@ -1,0 +1,111 @@
+body {
+  overflow-x: hidden;
+}
+
+.navbar {
+  background-color: #3e3c3c;
+  color: #fff;
+}
+
+.navbar .container-fluid a {
+  color: #fff;
+}
+
+.main-section {
+  background-color: #1c1a19;
+  height: 80vh;
+  margin: 0;
+  color: #fff;
+  padding-top: 100px;
+  background-image: url(./assets/Illustration-header.png);
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: contain;
+}
+
+.main-section h1 {
+  color: #f55800;
+}
+
+.image {
+  width: 100%;
+}
+
+.card {
+  border: none;
+  color: #fff;
+}
+
+.card-img-overlay {
+  margin-top: 36%;
+  padding: 2rem;
+}
+
+.blk-btn {
+  margin-top: 100%;
+  padding: 12px;
+}
+
+.my-container {
+  background-color: #262626;
+  background-image: url(./assets/illustration-about\ me.png);
+  background-repeat: no-repeat;
+  background-position: 100% 10%;
+  height: 1195px;
+}
+
+.my-container h2 {
+  color: #f55800;
+  font-size: 72px;
+  font-family: "Crete Round", sans-serif;
+  line-height: 81.5px;
+  margin: 130px 20px 0 20px;
+}
+
+.my-container p {
+  color: #fff;
+  font-size: 20px;
+  line-height: 32px;
+  margin: 24px 20px;
+}
+
+.btn-primary {
+  background-color: #f55800;
+  margin: 24px 20px 130px;
+  border: none;
+}
+
+.my-container hr {
+  border: 1px solid #fff;
+  margin: 0 32px;
+}
+
+.list-group {
+  color: #fff;
+}
+
+.my-container .list-group {
+  margin-top: 140px;
+}
+
+.lang {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 44px;
+}
+.contact {
+  height: 30vh;
+}
+
+.contact-btn {
+  margin-left: 0;
+}
+
+@media screen and (max-width: 992px) {
+  .main-section {
+    height: 90vh;
+    background-position: right bottom;
+    background-position-x: 140%;
+    background-position-y: 200px;
+  }
+}
