@@ -34,7 +34,16 @@
   margin-top: 36%;
   padding: 2rem;
 }
-.blk-btn{
-  margin-top: 90%;
-  padding:12px;
+.blk-btn {
+  margin-top: 100%;
+  padding: 12px;
+}
+
+@media screen and (max-width: 992px) {
+  .main-section {
+    height: 90vh;
+    background-position: right bottom;
+    background-position-x: 140%;
+    background-position-y: 200px;
+  }
 }
