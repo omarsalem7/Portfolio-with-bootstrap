@@ -1,0 +1,40 @@
+.navbar {
+  background-color: #3e3c3c;
+  color: #fff;
+}
+
+.navbar .container-fluid a {
+  color: #fff;
+}
+
+.main-section {
+  background-color: #1c1a19;
+  height: 80vh;
+  margin: 0;
+  color: #fff;
+  padding-top: 100px;
+  background-image: url(./assets/Illustration-header.png);
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: contain;
+}
+.main-section h1 {
+  color: #f55800;
+}
+
+.image {
+  width: 100%;
+}
+
+.card {
+  border: none;
+  color: #fff;
+}
+.card-img-overlay {
+  margin-top: 36%;
+  padding: 2rem;
+}
+.blk-btn{
+  margin-top: 90%;
+  padding:12px;
+}
