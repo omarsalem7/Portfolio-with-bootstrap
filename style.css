@@ -1,3 +1,7 @@
+body {
+  overflow-x: hidden;
+}
+
 .navbar {
   background-color: #3e3c3c;
   color: #fff;
@@ -42,15 +46,15 @@
   padding: 12px;
 }
 
-.container-fluid {
+.my-container {
   background-color: #262626;
-  background-image: url(./assets/deskabout.png);
+  background-image: url(./assets/illustration-about\ me.png);
   background-repeat: no-repeat;
   background-position: 100% 10%;
   height: 1195px;
 }
 
-.container-fluid h2 {
+.my-container h2 {
   color: #f55800;
   font-size: 72px;
   font-family: "Crete Round", sans-serif;
@@ -58,7 +62,7 @@
   margin: 130px 20px 0 20px;
 }
 
-.container-fluid p {
+.my-container p {
   color: #fff;
   font-size: 20px;
   line-height: 32px;
@@ -71,7 +75,7 @@
   border: none;
 }
 
-.container-fluid hr {
+.my-container hr {
   border: 1px solid #fff;
   margin: 0 32px;
 }
@@ -80,7 +84,7 @@
   color: #fff;
 }
 
-.container-fluid .list-group {
+.my-container .list-group {
   margin-top: 140px;
 }
 
@@ -88,6 +92,13 @@
   font-size: 32px;
   font-weight: 700;
   line-height: 44px;
+}
+.contact {
+  height: 30vh;
+}
+
+.contact-btn {
+  margin-left: 0;
 }
 
 @media screen and (max-width: 992px) {
