@@ -18,6 +18,7 @@
   background-position: right;
   background-size: contain;
 }
+
 .main-section h1 {
   color: #f55800;
 }
@@ -30,13 +31,63 @@
   border: none;
   color: #fff;
 }
+
 .card-img-overlay {
   margin-top: 36%;
   padding: 2rem;
 }
+
 .blk-btn {
   margin-top: 100%;
   padding: 12px;
+}
+
+.container-fluid {
+  background-color: #262626;
+  background-image: url(./assets/deskabout.png);
+  background-repeat: no-repeat;
+  background-position: 100% 10%;
+  height: 1195px;
+}
+
+.container-fluid h2 {
+  color: #f55800;
+  font-size: 72px;
+  font-family: "Crete Round", sans-serif;
+  line-height: 81.5px;
+  margin: 130px 20px 0 20px;
+}
+
+.container-fluid p {
+  color: #fff;
+  font-size: 20px;
+  line-height: 32px;
+  margin: 24px 20px;
+}
+
+.btn-primary {
+  background-color: #f55800;
+  margin: 24px 20px 130px;
+  border: none;
+}
+
+.container-fluid hr {
+  border: 1px solid #fff;
+  margin: 0 32px;
+}
+
+.list-group {
+  color: #fff;
+}
+
+.container-fluid .list-group {
+  margin-top: 140px;
+}
+
+.lang {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 44px;
 }
 
 @media screen and (max-width: 992px) {
